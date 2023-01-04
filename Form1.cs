@@ -219,6 +219,7 @@
                 MessageBox.Show("所有项都为必填项！请检查！");
                 return;
             }
+            测试连接
             if (!TestConnection(CurrentConnStr))
             {
                 MessageBox.Show("连接失败！请检查连接串！");
