@@ -1,5 +1,6 @@
 ﻿namespace Database
 {
+    using Stimulsoft.Base;
     using Stimulsoft.Report;
     using System;
     using System.Collections.Generic;
@@ -104,6 +105,8 @@
         private void Form1_Load(object sender, EventArgs e)
         {
             //报表去水印
+            string str = AppDomain.CurrentDomain.BaseDirectory.ToString();
+            StiLicense.LoadFromFile(str + "\\license.key");
             Stimulsoft.Base.StiLicense.LoadFromString("6vJhGtLLLz2GNviWmUTrhSqnOItdDwjBylQzQcAOiHkuEo2j1jqd65Skf0cmCinQ4JzbIg9T5ERKiDqTEsSDZtP5F7tOZV7r3o7QFppRVxbP1QzeTbB6XXDDd7uDkfLfClYuPKpcM84MNYrTUgoKodimzBOJxUroH1kfSteDspjtAXcBcX61hKGdw5lo/2XdURnBwPDCWhRNFq1DU2FgvEqP97mpjnmbswIITOk03476qb5IwdRj/jkenRqpzDTEfOmxODfKn93vi6a/aJ6qjgEmOnEtD4NU0Z5GueLBUk5ni8NRyCnRIm6TgErvI07Y/ZRl5Top4PviqfxRRsNe3F4trHrQ7uVUxWsAB5xAmj/XTfWK5GcjlllYe2azjrFVj6wKs5rXs5O1FwjQ6echI675yL7gQFg99DP4P/AJHlxqW68Y9F/FsB+Rqh8IlDz/PUkYb+8Aq+2/+Di+9RKxMC42G4uwTu40Daa3sFtaf4z+nm3m36UaOqvnNrijQ2pisJoSAQDzk7LSVUcVDQhkztpQttyxqPahHd5R+8pS3JJ/0LvNIX3+E4VBe10IOPi2vFsyWqZN23NIZBgVze19VzBuiVqIFFKqdl5fGjxf2Lq+cdSCXZDaUm5qncH4vzvueHlbuJYPKmkcz5d+FcnABExBZnF6MQzl8EOpxqlK3xs=");
         }
 

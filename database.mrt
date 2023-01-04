@@ -107,7 +107,7 @@
             <Text2 Ref="10" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.6,0.4,14.4,0.6</ClientRectangle>
+              <ClientRectangle>4,0.4,15,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <Guid>8c1ebaddd2d446e09c029f264c1d63de</Guid>
@@ -124,7 +124,7 @@
             <Text1 Ref="11" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0.4,4.6,0.6</ClientRectangle>
+              <ClientRectangle>0,0.4,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <HorAlignment>Center</HorAlignment>
@@ -139,7 +139,7 @@
             <Text10 Ref="12" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,1,4.6,0.6</ClientRectangle>
+              <ClientRectangle>0,1,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <Guid>0139f3123d6f479eb63943ac5cfe10e8</Guid>
@@ -156,7 +156,7 @@
             <Text12 Ref="13" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.6,1,2,0.6</ClientRectangle>
+              <ClientRectangle>4,1,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <Guid>4a6a73bf33fb4ab19e397effc4f081bf</Guid>
@@ -220,7 +220,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0,4.6,0.6</ClientRectangle>
+              <ClientRectangle>0,0,4,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <GrowToHeight>True</GrowToHeight>
@@ -239,7 +239,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4.6,0,2,0.6</ClientRectangle>
+              <ClientRectangle>4,0,2.6,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>微软雅黑,10</Font>
               <GrowToHeight>True</GrowToHeight>
@@ -326,10 +326,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>1/4/2023 5:48:01 PM</ReportChanged>
+  <ReportChanged>1/4/2023 8:35:40 PM</ReportChanged>
   <ReportCreated>6/25/2018 7:23:13 PM</ReportCreated>
   <ReportFile>F:\VS2019\Database\database.mrt</ReportFile>
-  <ReportGuid>675868d7d3b7409982a410a0b05569a9</ReportGuid>
+  <ReportGuid>1ffb649e7bda4cce8e273b0dc095a0a4</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2019.3.1.0</ReportVersion>
